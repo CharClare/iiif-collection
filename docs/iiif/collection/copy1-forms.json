@@ -1,0 +1,40 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/collection/copy1-forms.json",
+  "type": "Collection",
+  "label": {
+    "en": ["Copy 1 Forms 50 and 174"]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/manifest/Copy1/60/50.json",
+      "type": "Manifest",
+      "label": {
+        "en": ["Copy 1 Form 50"]
+      },
+       "thumbnail": [
+            {
+              "id": "https://files.transkribus.eu/iiif/2/BMPGOKVFXYTGWQKQIUBCICJC/full/200,/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 200
+            }
+          ]
+    },
+    {
+      "id": "https://example.org/iiif/manifest/Copy1/60/174.json",
+      "type": "Manifest",
+      "label": {
+        "en": ["Copy 1 Form 174"]
+      },
+       "thumbnail": [
+            {
+              "id": "https://files.transkribus.eu/iiif/2/VKBGRXAUPRHUPSBGOPKVTJLJ/full/200,/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 200
+            }
+          ]
+    }
+  ]
+}
