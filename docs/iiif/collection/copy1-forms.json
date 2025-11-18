@@ -10,7 +10,7 @@
       "id": "https://raw.githubusercontent.com/CharClare/iiif-collection/refs/heads/main/docs/iiif/manifest/50.json",
       "type": "Manifest",
       "label": {
-        "en": ["Copy 1 Form 50"]
+        "en": ["Copy1/60/50"]
       },
        "thumbnail": [
             {
@@ -25,7 +25,7 @@
       "id": "https://raw.githubusercontent.com/CharClare/iiif-collection/refs/heads/main/docs/iiif/manifest/174.json",
       "type": "Manifest",
       "label": {
-        "en": ["Copy 1 Form 174"]
+        "en": ["Copy1/60/174"]
       },
        "thumbnail": [
             {
@@ -38,4 +38,5 @@
     }
   ]
 }
+
 
