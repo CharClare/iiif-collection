@@ -3,7 +3,7 @@
   "id": "https://example.org/iiif/collection/copy1-forms.json",
   "type": "Collection",
   "label": {
-    "en": ["Copy 1 Forms 50 and 174"]
+    "en": ["Copy 1/60"]
   },
   "items": [
     {
@@ -38,5 +38,6 @@
     }
   ]
 }
+
 
 
