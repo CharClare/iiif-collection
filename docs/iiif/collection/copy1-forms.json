@@ -3,11 +3,11 @@
   "id": "https://example.org/iiif/collection/copy1-forms.json",
   "type": "Collection",
   "label": {
-    "en": ["Copy 1/60"]
+    "en": ["Copy1/60"]
   },
   "items": [
     {
-      "id": "https://raw.githubusercontent.com/CharClare/iiif-collection/refs/heads/main/docs/iiif/manifest/50.json",
+      "id": "https://example.org/iiif/manifest/Copy1/60/50.json",
       "type": "Manifest",
       "label": {
         "en": ["Copy1/60/50"]
@@ -22,7 +22,7 @@
           ]
     },
     {
-      "id": "https://raw.githubusercontent.com/CharClare/iiif-collection/refs/heads/main/docs/iiif/manifest/174.json",
+      "id": "https://example.org/iiif/manifest/Copy1/60/174.json",
       "type": "Manifest",
       "label": {
         "en": ["Copy1/60/174"]
@@ -35,9 +35,21 @@
               "width": 200
             }
           ]
-    }
+    },
+       {
+        "id": "https://raw.githubusercontent.com/CharClare/iiif-collection/refs/heads/main/docs/iiif/manifest/53.json",
+        "type": "Manifest",
+        "label" : {
+          "en": ["Copy1/60/53"]
+        },
+         "thumbnail": [
+           {
+             "id": "https://files.transkribus.eu/iiif/2/VZZMWZADFRHSCEKMWSDWAYPB/full/200,/0/default.jpg",
+             "type": "Image",
+             "format": "image/jpeg",
+             "width": 200
+           }
+         ]
+        }
   ]
 }
-
-
-
