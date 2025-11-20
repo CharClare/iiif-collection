@@ -233,5 +233,18 @@
         }
       ]
     }
-  ] 
+  ],
+  "related": [
+    {
+    "id": "https://discovery.nationalarchives.gov.uk/details/r/C7414212",
+    "type": "text",
+    "label": { "en" : ["The National Archives Catalogue - LIST OF CRIMINAL CASES, INCLUDING EXTRADITION CASES, HO 45/9331/19461C"]}
+  },
+   {
+    "id": "https://discovery.nationalarchives.gov.uk/details/r/C4134189",
+    "type": "text",
+    "label": { "en" : ["The National Archives Catalogue - CRIMINAL: DAVITT, Michael; COURT: Central Criminal Court; OFFENCE: Treason; SENTENCE: 15 years Penal Servitude, HO 144/5/17869"]}
+  }
+]
 } 
+
