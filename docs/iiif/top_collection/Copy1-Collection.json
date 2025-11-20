@@ -1,5 +1,5 @@
 {
-  "id": "https://example.org/iiif/collection/photographs",
+  "id": "https://example.org/iiif/collection/copy1",
   "type": "Collection",
   "label": { "en": ["Copy1"] },
   "items": [
@@ -10,3 +10,4 @@
     }
   ]
 }
+
