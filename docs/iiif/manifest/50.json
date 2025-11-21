@@ -3,7 +3,7 @@
   "id": "https://example.org/iiif/manifest/Copy1/60/50.json",
   "type": "Manifest",
   "label": {
-    "en": ["Copy 1 Form 50"]
+    "en": ["Copy1/60/50"]
   },
   "service": [
     {
@@ -15,7 +15,7 @@
     {
       "id": "https://example.org/iiif/canvas/Copy1/60/50",
       "type": "Canvas",
-      "label": { "en": ["Base image"] },
+      "label": { "en": ["Copy1/60/50"] },
       "width": 3508, 
       "height": 2479,
       "items": [
@@ -115,7 +115,7 @@
                   "motivation":"tagging" },
 
                 { "type": "Text", 
-                  "value": "Photograph of wall paper, massive zig zag flower ornament and foliated diaper background}",
+                  "value": "Photograph of wall paper, massive zig zag flower ornament and foliated diaper background",
                   "motivation": "identifying"}
               ] 
             },
@@ -213,3 +213,4 @@
     }
   ] 
 } 
+
