@@ -228,6 +228,24 @@
                 }
               ],
               "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=2181,429,406,627"
+            },
+            {
+              "id": "https://example.org/iiif/anno/Copy1/60/53-link_2",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": [
+                {
+                  "type": "SpecificResource",
+                  "source": "https://catalogue.nli.ie/Collection/vtls000313414"
+                },
+                {
+                  "type": "TextualBody",
+                  "value": "The Lawrence Photograph Collection, National Library of Ireland",
+                  "format": "text/plain",
+                  "language": "en"
+                }
+              ],
+              "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=361,457,2202,352"
             } 
           ]
         }
@@ -247,4 +265,5 @@
   }
 ]
 } 
+
 
