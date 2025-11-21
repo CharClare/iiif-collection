@@ -89,84 +89,84 @@
             {
               "id": "https://example.org/iiif/anno/Copy1/60/50-r_1",
               "type": "Annotation",
-              "motivation": "tagging",
+              "motivation": "commenting",
               "label":{ "en": ["William Woollams and Company, 110 High Street, near Manchester Square, Middlesex"]},
               "target": "https://example.org/iiif/canvas/Copy1/60/50#xywh=375,438,2209,332",
               "body": [
                 { "type": "Text", 
                   "value": "Name",
-                  "motivation": "tagging"
+                  "purpose": "tagging"
                 },
                 { "type": "Text",
                   "value": "William Woollams and Company, 110 High Street, near Manchester Square, Middlesex",
-                  "motivation": "tagging"
+                  "purpose": "describing"
                 }
               ] 
             },
             {
               "id": "https://example.org/iiif/anno/Copy1/60/50-r_2",
               "type": "Annotation",
-              "motivation": "tagging",
+              "motivation": "commenting",
               "label": { "en": ["Description of Work: Photograph of wall paper, massive zig zag flower ornament and foliated diaper background"] },
               "target": "https://example.org/iiif/canvas/Copy1/60/50#xywh=378,784,780,794",
               "body": [
                 { "type": "Text",
                   "value": "Description of Work",
-                  "motivation":"tagging" },
+                  "purpose":"tagging" },
 
                 { "type": "Text", 
                   "value": "Photograph of wall paper, massive zig zag flower ornament and foliated diaper background",
-                  "motivation": "identifying"}
+                  "purpose": "describing"}
               ] 
             },
             {
               "id": "https://example.org/iiif/anno/Copy1/60/50-r_3",
               "type": "Annotation",
-              "motivation": "tagging",
+              "motivation": "commenting",
               "label": { "en": ["Date of Agreement: 14 Feb 1883"] },
               "target": "https://example.org/iiif/canvas/Copy1/60/50#xywh=1145,780,245,794",
               "body": [
               { "type": "Text", 
                 "value": "Date of Agreement",
-                "motivation": "tagging"
+                "purpose": "tagging"
               },
               { "type": "Text",
                 "value": "14 Feb 1883",
-                "motivation": "identifying"
+                "purpose": "describing"
               }
             ]   
             },
             {
               "id": "https://example.org/iiif/anno/Copy1/60/50-r_4",
               "type": "Annotation",
-              "motivation": "tagging",
+              "motivation": "commenting",
               "label": { "en": ["Name of Parties to Agreement: Bedford Lemere and Co, William Woolams and Co"] },
               "target": "https://example.org/iiif/canvas/Copy1/60/50#xywh=1372,770,401,808",
               "body": [
               { "type": "Text", 
                 "value": "Name of Parties to Agreement",
-                "motivation": "tagging"
+                "purpose": "tagging"
               },
               { "type": "Text",
                 "value": "Bedford Lemere and Co, William Woolams and Co",
-                "motivation": "identifying"
+                "purpose": "describing"
               }
             ]   
             },
             {
               "id": "https://example.org/iiif/anno/Copy1/60/50-r_5",
               "type": "Annotation",
-              "motivation": "tagging",
+              "motivation": "commenting",
               "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: William Woollams and Company, 110 High Street, near Manchester Square, Middlesex"] },
               "target": "https://example.org/iiif/canvas/Copy1/60/50#xywh=1738,749,415,836",
               "body": [
               { "type": "Text", 
                 "value": "Name and Address of Copyright Owner",
-                "motivation": "tagging"
+                "purpose": "tagging"
               },
               {"type": "Text",
                "value": "William Woollams and Company, 110 High Street, near Manchester Square, Middlesex",
-              "motivation": "identifying"
+              "purpose": "describing"
               }
             ] 
               
@@ -174,17 +174,17 @@
             {
               "id": "https://example.org/iiif/anno/Copy1/60/50-r_6",
               "type": "Annotation",
-              "motivation": "tagging",
+              "motivation": "commenting",
               "label": { "en": ["Name and Place of Abode of Author of Work: Bedford Lemere and Company, 147 Strand, Middlesex"] },
               "target": "https://example.org/iiif/canvas/Copy1/60/50#xywh=2125,739,473,846",
               "body": [
               { "type": "Text", 
                 "value": "Name and Address of Author of Work",
-                "motivation": "tagging"
+                "purpose": "tagging"
               },
               {"type": "Text",
                "value": "Bedford Lemere and Company, 147 Strand, Middlesex",
-              "motivation": "identifying"
+              "purpose": "describing"
               }
             ] 
               
@@ -192,17 +192,17 @@
             {
               "id": "https://example.org/iiif/anno/Copy1/60/50-r_7",
               "type": "Annotation",
-              "motivation": "tagging",
+              "motivation": "commenting",
               "label": { "en": ["Dated this 15 February 1883"] },
               "target": "https://example.org/iiif/canvas/Copy1/60/50#xywh=371,1574,2213,246",
               "body": [
               { "type": "Text", 
                 "value": "Date",
-                "motivation": "tagging"
+                "purpose": "tagging"
               },
               {"type": "Text",
                "value": "15 February 1883",
-              "motivation": "identifying"
+              "purpose": "describing"
               }
             ] 
               
@@ -213,4 +213,5 @@
     }
   ] 
 } 
+
 
