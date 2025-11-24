@@ -9,7 +9,7 @@
     {
       "id": "https://example.org/iiif/canvas/Copy1/60/53",
       "type": "Canvas",
-      "label": { "en": ["Copy1/60/53"] },
+      "label": {"en": ["Copy1/60/53"]},
       "width": 3508, 
       "height": 2479,
       "items": [
@@ -85,6 +85,7 @@
               "type": "Annotation",
               "motivation": "commenting",
               "label": { "en": ["William Lawrence of 5 and 7 Upper Sackville Street, Dublin"] },
+              "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=361,457,2202,352",
               "body": [
                  { "type": "Text",
                   "value": "Name and Address",
@@ -94,14 +95,14 @@
                  "value": "William Lawrence of 5 and 7 Upper Sackville Street, Dublin",
                  "purpose": "describing"
                 }
-              ],
-              "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=361,457,2202,352"
+              ]
             },
             {
               "id": "https://example.org/iiif/anno/Copy1/60/53-r-1",
               "type": "Annotation",
               "motivation": "commenting",
               "label": { "en": ["Description of Work: Photograph of Michael Davitt Esq., open overcoat, nearly left ¾ face"] },
+              "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=358,806,828,795",
               "body": [
               { 
                 "type": "Text", 
@@ -113,14 +114,14 @@
                 "value": "Photograph of Michael Davitt Esq., open overcoat, nearly left ¾ face",
                 "purpose": "describing"
               }
-            ],
-              "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=358,806,828,795"
+            ]
             },
             {
               "id": "https://example.org/iiif/anno/Copy1/60/53-r_2",
               "type": "Annotation",
               "motivation": "commenting",
               "label": { "en": ["Date of Agreement: n/a"] },
+              "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=1165,814,259,787",
               "body": [
               { 
                 "type": "Text", 
@@ -132,14 +133,14 @@
                 "value": "n/a",
                 "purpose": "describing"
               }
-            ],
-              "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=1165,814,259,787"
+            ]
             },
             {
               "id": "https://example.org/iiif/anno/Copy1/60/53-r_3",
               "type": "Annotation",
               "motivation": "commenting",
               "label": { "en": ["Name of Parties to Agreement: n/a"] },
+              "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=1410,811,389,797",
               "body": [
               { 
                 "type": "Text", 
@@ -151,14 +152,14 @@
                 "value": "n/a",
                 "purpose": "describing"
               }
-            ],
-              "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=1410,811,389,797"
+            ] 
             },
             {
               "id": "https://example.org/iiif/anno/Copy1/60/53-r_4",
               "type": "Annotation",
               "motivation": "commenting",
               "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: William Lawrence, 5 and 7 Upper Sackville Street, Dublin"] },
+              "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=1771,811,389,795",
               "body": [
               { 
                 "type": "Text", 
@@ -170,13 +171,13 @@
                 "value": "William Lawrence, 5 and 7 Upper Sackville Street, Dublin",
                 "purpose": "describing"
               }
-            ],
-              "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=1771,811,389,795"
+            ]
             },
             {
               "id": "https://example.org/iiif/anno/Copy1/60/53-r_5",
               "type": "Annotation",
               "motivation": "commenting",
+              "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=2139,806,450,800",
               "label": { "en": ["Name and Place of Abode of Author of Work: William Lawrence, 5 and 7 Upper Sackville Street, Dublin"] },
                  "body": [
               { 
@@ -189,14 +190,14 @@
                 "value": "William Lawrence, 5 and 7 Upper Sackville Street, Dublin",
                 "purpose": "describing"
               }
-            ],
-              "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=2139,806,450,800"
+            ]
             },
             {
               "id": "https://example.org/iiif/anno/Copy1/60/53-r_6",
               "type": "Annotation",
               "motivation": "commenting",
               "label": { "en": ["Dated this 6 March 1883"] },
+              "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=354,1587,2242,215",
               "body": [
               { 
                 "type": "Text", 
@@ -208,45 +209,41 @@
                 "value": "8 February 1883",
                 "purpose": "describing"
               }
-            ],
-              "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=354,1587,2242,215"
+            ]
             },
-            {
+              {
               "id": "https://example.org/iiif/anno/Copy1/60/53-link",
               "type": "Annotation",
-              "motivation": "tagging",
-              "body": [
-                {
-                  "type": "SpecificResource",
-                  "source": "https://en.wikipedia.org/wiki/Michael_Davitt"
-                },
+              "motivation": "commenting",
+              "body":
                 {
                   "type": "TextualBody",
-                  "value": "Wiki article on Michael Davitt",
-                  "format": "text/plain",
-                  "language": "en"
-                }
-              ],
+                  "language": "en",
+                  "format": "text/html",
+                  "value": "<p>More on Michael Davitt <a href='https://en.wikipedia.org/wiki/Michael_Davitt'>Wikipedia</a></p>"
+                  
+                },
               "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=2181,429,406,627"
-            },
+            },   
             {
               "id": "https://example.org/iiif/anno/Copy1/60/53-link_2",
               "type": "Annotation",
-              "motivation": "tagging",
+              "motivation": "commenting",
               "body": [
-                {
-                  "type": "SpecificResource",
-                  "source": "https://catalogue.nli.ie/Collection/vtls000313414"
-                },
-                {
+                 {
+                   "type": "SpecificResource",
+                   "source": "https://catalogue.nli.ie/Collection/vtls000313414"
+                 },
+                 {
                   "type": "TextualBody",
-                  "value": "The Lawrence Photograph Collection, National Library of Ireland",
-                  "format": "text/plain",
+                  "value": "<p><a href='https://catalogue.nli.ie/Collection/vtls000313414' target='_blank'>The Lawrence Photograph Collection, National Library of Ireland</a></p>",
+                  "format": "text/html",
                   "language": "en"
-                }
-              ],
+                  }
+                ],
               "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=361,457,2202,352"
-            } 
+            }
+
           ]
         }
       ]
@@ -255,16 +252,14 @@
   "seeAlso": [
     {
     "id": "https://discovery.nationalarchives.gov.uk/details/r/C7414212",
-    "type": "text",
+    "type": "Text",
     "label": { "en" : ["The National Archives Catalogue - LIST OF CRIMINAL CASES, INCLUDING EXTRADITION CASES, HO 45/9331/19461C"]}
   },
    {
     "id": "https://discovery.nationalarchives.gov.uk/details/r/C4134189",
-    "type": "text",
+    "type": "Text",
     "label": { "en" : ["The National Archives Catalogue - CRIMINAL: DAVITT, Michael; COURT: Central Criminal Court; OFFENCE: Treason; SENTENCE: 15 years Penal Servitude, HO 144/5/17869"]}
   }
 ]
-} 
-
-
+}
 
