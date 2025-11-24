@@ -52,7 +52,6 @@
               },
               "target": "https://example.org/iiif/canvas/Copy1/60/53#xywh=2181,429,406,627"
             }
-            }
           ]
         }
       ],
@@ -263,5 +262,4 @@
   }
 ]
 }
-
 
