@@ -36,15 +36,15 @@
                       ]
                     }
                   },
-                  {
-                    "id": "https://files.transkribus.eu/iiif/2/TMQCYANNIXNIXCLGQURSERQF/full/full/0/default.jpg",
+                     {
+                    "id": "https://files.transkribus.eu/iiif/2/TMQCYANNIXNIXCLGQURSERQF/751,297,1471,1947/full/0/default.jpg",
                     "type": "Image",
-                    "height": 2479,
-                    "width": 3508,
+                    "height": 1947,
+                    "width": 1471,
                     "format": "image/jpeg",
                     "label": {
                       "en": [
-                        "Form with photograph attached"
+                        "Attached photograph"
                       ]
                     }
                   }
@@ -52,6 +52,7 @@
               },
               "target": "https://example.org/iiif/canvas/Copy1/60/174"
             }
+                    
           ]
         }
       ],
@@ -218,3 +219,4 @@
     }
   ] 
 } 
+
