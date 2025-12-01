@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/collection/olympics.json",
+  "type": "Collection",
+  "label": {
+    "en": ["Copy 1 Olympics Records"]
+  },
+  "homepage": [
+  {
+    "id": "https://webarchive.nationalarchives.gov.uk/ukgwa/20120608215701/https://www.nationalarchives.gov.uk/olympics/timeline.htm#&panel1-4",
+    "type": "Text",
+    "label": { "en": ["Timeline of Olympic Games on the TNA Web Archive"] },
+    "format": "text/html"
+  }
+],
+  "items": [
+    {
+      "id": "https://raw.githubusercontent.com/CharClare/iiif-collection/refs/heads/main/docs/iiif/manifest/olympics.json",
+      "type": "Manifest",
+      "label": {
+        "en": ["COPY1/526/12"]
+      },
+       "thumbnail": [
+            {
+              "id": "https://files.transkribus.eu/iiif/2/PMIJEDAIZORWKYWAOOWEFWEA/full/200,/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 200
+            }
+          ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/CharClare/iiif-collection/refs/heads/main/docs/iiif/manifest/olympics_1.json",
+      "type": "Manifest",
+      "label": {
+        "en": ["COPY1/520/235"]
+      },
+       "thumbnail": [
+            {
+              "id": "https://files.transkribus.eu/iiif/2/URPYGEGTMFDWXCBRYKAPSTZF/full/200,/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "width": 200
+            }
+          ]
+    },
+       {
+        "id": "https://raw.githubusercontent.com/CharClare/iiif-collection/refs/heads/main/docs/iiif/manifest/olympics_2.json",
+        "type": "Manifest",
+        "label" : {
+          "en": ["COPY1/527/202"]
+        },
+         "thumbnail": [
+           {
+             "id": "https://files.transkribus.eu/iiif/2/FWDGKMMUSZKNVSETAEHMACBC/full/200,/0/default.jpg",
+             "type": "Image",
+             "format": "image/jpeg",
+             "width": 200
+           }
+         ]
+        },
+         {
+        "id": "https://raw.githubusercontent.com/CharClare/iiif-collection/refs/heads/main/docs/iiif/manifest/olympics_3.json",
+        "type": "Manifest",
+        "label" : {
+          "en": ["COPY1/526/63"]
+        },
+         "thumbnail": [
+           {
+             "id": "https://files.transkribus.eu/iiif/2/RCVNVBRKRGNAZLOUXABIWSES/full/200,/0/default.jpg",
+             "type": "Image",
+             "format": "image/jpeg",
+             "width": 200
+           }
+         ]
+        },
+        {
+        "id": "https://raw.githubusercontent.com/CharClare/iiif-collection/refs/heads/main/docs/iiif/manifest/olympics_4.json",
+        "type": "Manifest",
+        "label" : {
+          "en": ["COPY1/526/206"]
+        },
+         "thumbnail": [
+           {
+             "id": "https://files.transkribus.eu/iiif/2/JARTELMPOURWDQPECPYDLIWY/full/200,/0/default.jpg",
+             "type": "Image",
+             "format": "image/jpeg",
+             "width": 200
+           }
+         ]
+        },
+        {
+        "id": "https://raw.githubusercontent.com/CharClare/iiif-collection/refs/heads/main/docs/iiif/manifest/olympics_5.json",
+        "type": "Manifest",
+        "label" : {
+          "en": ["COPY1/433/525"]
+        },
+         "thumbnail": [
+           {
+             "id": "https://files.transkribus.eu/iiif/2/DKNJTNZUVVQIKOBZUODOTMQA/full/200,/0/default.jpg",
+             "type": "Image",
+             "format": "image/jpeg",
+             "width": 200
+           }
+         ]
+      }
+  ]
+}
