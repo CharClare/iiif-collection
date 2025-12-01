@@ -74,7 +74,7 @@
               "id": "https://example.org/iiif/anno/COPY1/526/63-r",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": [""] },
+              "label": { "en": ["Albert Pearson of 107 Manchester Street, Oldham"] },
               "target": "https://example.org/iiif/canvas/COPY1/526/63#xywh=66,136,2427,703",
               "body": [
                  { "type": "Text",
@@ -82,7 +82,7 @@
                   "purpose": "tagging" },
 
                 {"type": "Text",
-                 "value": "",
+                 "value": "Albert Pearson of 107 Manchester Street, Oldham",
                  "purpose": "describing"
                 }
               ]
@@ -91,7 +91,7 @@
               "id": "https://example.org/iiif/anno/COPY1/526/63-r_1",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": ["Date Received: "] },
+              "label": { "en": ["Date Received: 8th October 1908"] },
               "target": "https://example.org/iiif/canvas/COPY1/526/63#xywh=2491,137,933,690",
               "body": [
               { 
@@ -101,7 +101,7 @@
               },
               { 
                 "type": "Text", 
-                "value": "",
+                "value": "8th October 1908",
                 "purpose": "describing"
               }
             ]
@@ -110,7 +110,7 @@
               "id": "https://example.org/iiif/anno/COPY1/526/63-r_2",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": ["Description of Work: "] },
+              "label": { "en": ["Description of Work: Photograph, Henry Taylor, swimmer in costume olympic badge and medals"] },
               "target": "https://example.org/iiif/canvas/COPY1/526/63#xywh=128,832,1097,574",
               "body": [
               { 
@@ -120,7 +120,7 @@
               },
               { 
                 "type": "Text", 
-                "value": "",
+                "value": "Photograph, Henry Taylor, swimmer in costume olympic badge and medals",
                 "purpose": "describing"
               }
             ]
@@ -129,7 +129,7 @@
               "id": "https://example.org/iiif/anno/COPY1/526/63-r_3",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: "] },
+              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: Albert Pearson, 107 Manchester Street, Oldham"] },
               "target": "https://example.org/iiif/canvas/COPY1/526/63#xywh=2145,845,577,572",
               "body": [
               { 
@@ -139,7 +139,7 @@
               },
               { 
                 "type": "Text", 
-                "value":"",
+                "value":"Albert Pearson, 107 Manchester Street, Oldham",
                 "purpose": "describing"
               }
             ] 
@@ -148,7 +148,7 @@
               "id": "https://example.org/iiif/anno/COPY1/526/63-r_4",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": ["Name and Place of Abode of Author of Work: "] },
+              "label": { "en": ["Name and Place of Abode of Author of Work: Albert Pearson, 107 Manchester Street, Oldham"] },
               "target": "https://example.org/iiif/canvas/COPY1/526/63#xywh=2694,853,716,562",
               "body": [
               { 
@@ -158,7 +158,7 @@
               },
               { 
                 "type": "Text", 
-                "value": "",
+                "value": "Albert Pearson, 107 Manchester Street, Oldham",
                 "purpose": "describing"
               }
             ]
@@ -168,7 +168,7 @@
               "type": "Annotation",
               "motivation": "commenting",
               "target": "https://example.org/iiif/canvas/COPY1/526/63#xywh=131,1401,3235,249",
-              "label": { "en": ["Date: "] },
+              "label": { "en": ["Date: 29th September 1908"] },
                  "body": [
               { 
                 "type": "Text", 
@@ -177,7 +177,7 @@
               },
               { 
                 "type": "Text", 
-                "value": "1908",
+                "value": "29th September 1908",
                 "purpose": "describing"
               }
             ]
@@ -207,3 +207,4 @@
     }
   ]
 }
+
