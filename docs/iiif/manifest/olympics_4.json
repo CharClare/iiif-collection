@@ -110,7 +110,7 @@
               "id": "https://example.org/iiif/anno/COPY1/526/206-r_2",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": ["Description of Work: Photograph, Liverpool Police Team and Luedis at Olympic Games Tug of War 1908"] },
+              "label": { "en": ["Description of Work: Photograph, Liverpool Police Team and Swedes at Olympic Games Tug of War 1908"] },
               "target": "https://example.org/iiif/canvas/COPY1/526/206#xywh=128,832,1097,574",
               "body": [
               { 
@@ -206,4 +206,5 @@
     }
   ]
 }
+
 
