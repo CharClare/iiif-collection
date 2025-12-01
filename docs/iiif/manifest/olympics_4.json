@@ -74,7 +74,7 @@
               "id": "https://example.org/iiif/anno/COPY1/526/206-r",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": [""] },
+              "label": { "en": ["Joseph Bernett of Seacombe, Cheshire and Liverpool"] },
               "target": "https://example.org/iiif/canvas/COPY1/526/206#xywh=66,136,2427,703",
               "body": [
                  { "type": "Text",
@@ -82,7 +82,7 @@
                   "purpose": "tagging" },
 
                 {"type": "Text",
-                 "value": "",
+                 "value": "Joseph Bernett of Seacombe, Cheshire and Liverpool",
                  "purpose": "describing"
                 }
               ]
@@ -91,7 +91,7 @@
               "id": "https://example.org/iiif/anno/COPY1/526/206-r_1",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": ["Date Received: "] },
+              "label": { "en": ["Date Received: 26th October 1908"] },
               "target": "https://example.org/iiif/canvas/COPY1/526/206#xywh=2491,137,933,690",
               "body": [
               { 
@@ -101,7 +101,7 @@
               },
               { 
                 "type": "Text", 
-                "value": "",
+                "value": "26th October 1908",
                 "purpose": "describing"
               }
             ]
@@ -110,7 +110,7 @@
               "id": "https://example.org/iiif/anno/COPY1/526/206-r_2",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": ["Description of Work: "] },
+              "label": { "en": ["Description of Work: Photograph, Liverpool Police Team and Luedis at Olympic Games Tug of War 1908"] },
               "target": "https://example.org/iiif/canvas/COPY1/526/206#xywh=128,832,1097,574",
               "body": [
               { 
@@ -120,7 +120,7 @@
               },
               { 
                 "type": "Text", 
-                "value": "",
+                "value": "Description of Work: Photograph, Liverpool Police Team and Luedis at Olympic Games Tug of War 1908",
                 "purpose": "describing"
               }
             ]
@@ -129,7 +129,7 @@
               "id": "https://example.org/iiif/anno/COPY1/526/206-r_3",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright and Author of Work: "] },
+              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright and Author of Work: Joseph Bernett, Ethel Road, Seacombe"] },
               "target": "https://example.org/iiif/canvas/COPY1/526/206#xywh=2158,843,1252,585",
               "body": [
               { 
@@ -139,7 +139,7 @@
               },
               { 
                 "type": "Text", 
-                "value":"",
+                "value": "Joseph Bernett, Ethel Road, Seacombe",
                 "purpose": "describing"
               }
             ] 
@@ -149,7 +149,7 @@
               "type": "Annotation",
               "motivation": "commenting",
               "target": "https://example.org/iiif/canvas/COPY1/526/206#xywh=131,1401,3235,249",
-              "label": { "en": ["Date: "] },
+              "label": { "en": ["Date: 23rd October 1908"] },
                  "body": [
               { 
                 "type": "Text", 
@@ -158,7 +158,7 @@
               },
               { 
                 "type": "Text", 
-                "value": "1908",
+                "value": "23rd October 1908",
                 "purpose": "describing"
               }
             ]
@@ -206,3 +206,4 @@
     }
   ]
 }
+
