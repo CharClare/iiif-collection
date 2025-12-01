@@ -1,0 +1,208 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/526/206.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/526/206"
+    ]
+  },
+ "homepage": [
+  {
+    "id": "https://webarchive.nationalarchives.gov.uk/ukgwa/20120610014322/https://www.nationalarchives.gov.uk/olympics/recordpreviews/1908/1908-record-04.htm",
+    "type": "Text",
+    "label": { "en": ["Page on TNA Web Archive"] },
+    "format": "text/html"
+  }
+],
+
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/526/206",
+      "type": "Canvas",
+      "height": 2479,
+      "width": 3508,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/526/206",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/526/206/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "type": "Choice",
+                "items": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/UHCRIEFHJKQHZTZOONSLYHMC/full/full/0/default.jpg",
+                    "type": "Image",
+                    "height": 2479,
+                    "width": 3508,
+                    "format": "image/jpeg",
+                    "label": {
+                      "en": [
+                        "Form"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/JARTELMPOURWDQPECPYDLIWY/full/full/0/default.jpg",
+                    "type": "Image",
+                    "height": 2479,
+                    "width": 3508,
+                    "format": "image/jpeg",
+                    "label": {
+                      "en": [
+                        "Attached Photo"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/526/206"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/canvas/COPY1/526/206/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/anno/COPY1/526/206-r",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": [""] },
+              "target": "https://example.org/iiif/canvas/COPY1/526/206#xywh=66,136,2427,703",
+              "body": [
+                 { "type": "Text",
+                  "value": "Name and Address",
+                  "purpose": "tagging" },
+
+                {"type": "Text",
+                 "value": "",
+                 "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/526/206-r_1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": ["Date Received: "] },
+              "target": "https://example.org/iiif/canvas/COPY1/526/206#xywh=2491,137,933,690",
+              "body": [
+              { 
+                "type": "Text", 
+                "value": "Date Received",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "",
+                "purpose": "describing"
+              }
+            ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/526/206-r_2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": ["Description of Work: "] },
+              "target": "https://example.org/iiif/canvas/COPY1/526/206#xywh=128,832,1097,574",
+              "body": [
+              { 
+                "type": "Text", 
+                "value": "Description of Work",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "",
+                "purpose": "describing"
+              }
+            ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/526/206-r_3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright and Author of Work: "] },
+              "target": "https://example.org/iiif/canvas/COPY1/526/206#xywh=2158,843,1252,585",
+              "body": [
+              { 
+                "type": "Text", 
+                "value": "Name and Place of Abode of Proprietor of Copyright and Author of Work",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value":"",
+                "purpose": "describing"
+              }
+            ] 
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/526/206-r_5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://example.org/iiif/canvas/COPY1/526/206#xywh=131,1401,3235,249",
+              "label": { "en": ["Date: "] },
+                 "body": [
+              { 
+                "type": "Text", 
+                "value": "Date",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "1908",
+                "purpose": "describing"
+              }
+            ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/526/206-link_1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": [
+                 {
+                   "type": "SpecificResource",
+                   "source": "https://www.olympedia.org/results/21122"
+                 },
+                 {
+                  "type": "TextualBody",
+                  "value": "<p><a href='https://www.olympedia.org/results/21122 ' target='_blank'>Olympedia Article on the Event</a></p>",
+                  "format": "text/html",
+                  "language": "en"
+                  }
+                ],
+              "target": "https://example.org/iiif/canvas/COPY1/526/206#xywh=128,832,1097,574"
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/526/206-link_2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": [
+                 {
+                   "type": "SpecificResource",
+                   "source": "https://www.liverpoolcitypolice.co.uk/articles/sport/"
+                 },
+                 {
+                  "type": "TextualBody",
+                  "value": "<p><a href='https://www.liverpoolcitypolice.co.uk/articles/sport/' target='_blank'>Article from Leeds City Police</a></p>",
+                  "format": "text/html",
+                  "language": "en"
+                  }
+                ],
+              "target": "https://example.org/iiif/canvas/COPY1/526/206#xywh=128,832,1097,574"
+            }
+
+          ]
+        }
+      ]
+    }
+  ]
+}

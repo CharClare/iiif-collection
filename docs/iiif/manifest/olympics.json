@@ -1,0 +1,209 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/526/12.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/526/12"
+    ]
+  },
+ "homepage": [
+  {
+    "id": "https://webarchive.nationalarchives.gov.uk/ukgwa/20120610014340/https://www.nationalarchives.gov.uk/olympics/recordpreviews/1908/1908-record-08.htm",
+    "type": "Text",
+    "label": { "en": ["Page on TNA Web Archive"] },
+    "format": "text/html"
+  }
+],
+
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/526/12",
+      "type": "Canvas",
+      "height": 2479,
+      "width": 3508,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/526/12",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/526/12/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "type": "Choice",
+                "items": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/KLFRIUFRNQTVFEKUKGWLUXMS/full/full/0/default.jpg",
+                    "type": "Image",
+                    "height": 2479,
+                    "width": 3508,
+                    "format": "image/jpeg",
+                    "label": {
+                      "en": [
+                        "Form"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/PMIJEDAIZORWKYWAOOWEFWEA/full/full/0/default.jpg",
+                    "type": "Image",
+                    "height": 2479,
+                    "width": 3508,
+                    "format": "image/jpeg",
+                    "label": {
+                      "en": [
+                        "Attached Photo"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/526/12"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/canvas/COPY1/526/12/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/anno/COPY1/526/12-r",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": ["Henry Robert Howard of 32 Cooperation Street, Bacup"] },
+              "target": "https://example.org/iiif/canvas/COPY1/526/12#xywh=77,134,2386,718",
+              "body": [
+                 { "type": "Text",
+                  "value": "Name and Address",
+                  "purpose": "tagging" },
+
+                {"type": "Text",
+                 "value": "Henry Robert Howard of 32 Cooperation Street, Bacup",
+                 "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/526/12-r_1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": ["Date Received: October 2nd 1908"] },
+              "target": "https://example.org/iiif/canvas/COPY1/526/12#xywh=2499,134,934,721",
+              "body": [
+              { 
+                "type": "Text", 
+                "value": "Date Received",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "October 2nd 1908",
+                "purpose": "describing"
+              }
+            ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/526/12-r_2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": ["Description of Work: Photograph of Willie Foster, Bacup member of the British Team in the 200 metres swimming race at the Olympic Games 1908"] },
+              "target": "https://example.org/iiif/canvas/COPY1/526/12#xywh=158,827,1258,607",
+              "body": [
+              { 
+                "type": "Text", 
+                "value": "Description of Work",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "Photograph of Willie Foster, Bacup member of the British Team in the 200 metres swimming race at the Olympic Games 1908",
+                "purpose": "describing"
+              }
+            ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/526/12-r_3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: H R Howard, 32 Cooperation Street, Bacup"] },
+              "target": "https://example.org/iiif/canvas/COPY1/526/12#xywh=2169,853,581,563",
+              "body": [
+              { 
+                "type": "Text", 
+                "value": "Name and Place of Abode of Proprietor of Copyright",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value":"H R Howard, 32 Cooperation Street, Bacup",
+                "purpose": "describing"
+              }
+            ] 
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/526/12-r_4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": ["Name and Place of Abode of Author of Work: H R Howard, 32 Cooperation Street, Bacup"] },
+              "target": "https://example.org/iiif/canvas/COPY1/526/12#xywh=2721,859,711,565",
+              "body": [
+              { 
+                "type": "Text", 
+                "value": "Name and Place of Abode of Author of Work",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "H R Howard, 32 Cooperation Street, Bacup",
+                "purpose": "describing"
+              }
+            ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/526/12-r_5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://example.org/iiif/canvas/COPY1/526/12#xywh=153,1372,3263,254",
+              "label": { "en": ["Date: 30th September 1908"] },
+                 "body": [
+              { 
+                "type": "Text", 
+                "value": "Date",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "30th September 1908",
+                "purpose": "describing"
+              }
+            ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/526/12-link_2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": [
+                 {
+                   "type": "SpecificResource",
+                   "source": "https://www.olympics.com/en/athletes/william-foster"
+                 },
+                 {
+                  "type": "TextualBody",
+                  "value": "<p><a href='https://www.olympics.com/en/athletes/william-foster' target='_blank'>Olympics Profile on William Foster</a></p>",
+                  "format": "text/html",
+                  "language": "en"
+                  }
+                ],
+              "target": "https://example.org/iiif/canvas/COPY1/526/12#xywh=158,827,1258,607"
+            }
+
+          ]
+        }
+      ]
+    }
+  ]
+}

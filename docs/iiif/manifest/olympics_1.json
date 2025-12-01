@@ -1,0 +1,266 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/520/235.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/520/235"
+    ]
+  },
+ "homepage": [
+  {
+    "id": "https://webarchive.nationalarchives.gov.uk/ukgwa/20120610014308/https://www.nationalarchives.gov.uk/olympics/recordpreviews/1908/1908-record-01.htm",
+    "type": "Text",
+    "label": { "en": ["Page on TNA Web Archive"] },
+    "format": "text/html"
+  }
+],
+
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/520/235",
+      "type": "Canvas",
+      "height": 2479,
+      "width": 3508,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/520/235",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/520/235/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "type": "Choice",
+                "items": [
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/URPYGEGTMFDWXCBRYKAPSTZF/full/full/0/default.jpg",
+                    "type": "Image",
+                    "height": 2479,
+                    "width": 3508,
+                    "format": "image/jpeg",
+                    "label": {
+                      "en": [
+                        "Form"
+                      ]
+                    }
+                  },
+                  {
+                    "id": "https://files.transkribus.eu/iiif/2/ZBNBAMCDVJTKGRUUZMUHWWTU/full/full/0/default.jpg",
+                    "type": "Image",
+                    "height": 2479,
+                    "width": 3508,
+                    "format": "image/jpeg",
+                    "label": {
+                      "en": [
+                        "Attached Photo"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "target": "https://example.org/iiif/canvas/COPY1/520/235"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/canvas/COPY1/520/235/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/anno/COPY1/520/235-r",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": [""] },
+              "target": "https://example.org/iiif/canvas/COPY1/520/235#xywh=86,163,2383,690",
+              "body": [
+                 { "type": "Text",
+                  "value": "Name and Address",
+                  "purpose": "tagging" },
+
+                {"type": "Text",
+                 "value": "",
+                 "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/520/235-r_1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": ["Description of Work: Photograph from print, Franco British Exhibition stadium for Olympic Games 1908"] },
+              "target": "https://example.org/iiif/canvas/COPY1/520/235#xywh=87,862,1141,605",
+              "body": [
+              { 
+                "type": "Text", 
+                "value": "Description of Work",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "Photograph from print, Franco British Exhibition stadium for Olympic Games 1908",
+                "purpose": "describing"
+              }
+            ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/520/235-r_2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": ["Date of Agreement: 13th April 1908"] },
+              "target": "https://example.org/iiif/canvas/COPY1/520/235#xywh=1184,852,449,610",
+              "body": [
+              { 
+                "type": "Text", 
+                "value": "Date of Agreement",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "30th April 1908",
+                "purpose": "describing"
+              }
+            ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/520/235-r_3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": ["Names of Parties to Agreement:"] },
+              "target": "https://example.org/iiif/canvas/COPY1/520/235#xywh=1620,870,563,599",
+              "body": [
+              { 
+                "type": "Text", 
+                "value": "Names of Parties to Agreement",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value":"",
+                "purpose": "describing"
+              }
+            ] 
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/520/235-r_4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: "] },
+              "target": "https://example.org/iiif/canvas/COPY1/520/235#xywh=2147,862,575,610",
+              "body": [
+              { 
+                "type": "Text", 
+                "value": "Name and Place of Abode of Proprietor of Copyright",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "",
+                "purpose": "describing"
+              }
+            ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/520/235-r_5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://example.org/iiif/canvas/COPY1/520/235#xywh=2699,873,716,604",
+              "label": { "en": ["Name and Place of Abode of Author of Work: Harold Baker, 71 Cannon Street, Birmingham"] },
+                 "body": [
+              { 
+                "type": "Text", 
+                "value": "Name and Place of Abode of Author of Work",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "Harold Baker, 71 Cannon Street, Birmingham",
+                "purpose": "describing"
+              }
+            ]
+            },
+                  {
+              "id": "https://example.org/iiif/anno/COPY1/520/235-r_6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://example.org/iiif/canvas/COPY1/520/235#xywh=87,1438,3312,247",
+              "label": { "en": ["Date: 25th April 1908"] },
+                 "body": [
+              { 
+                "type": "Text", 
+                "value": "Date",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "25th April 1908",
+                "purpose": "describing"
+              }
+            ]
+            },
+                  {
+              "id": "https://example.org/iiif/anno/COPY1/520/235-r_7",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://example.org/iiif/canvas/COPY1/520/235#xywh=844,779,366,294",
+              "label": { "en": ["Photograph"] },
+                 "body": [
+              { 
+                "type": "Text", 
+                "value": "Attached photograph",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "Photograph",
+                "purpose": "describing"
+              }
+            ]
+            },
+                  {
+              "id": "https://example.org/iiif/anno/COPY1/520/235-r_8",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://example.org/iiif/canvas/COPY1/520/235#xywh=2489,152,916,690",
+              "label": { "en": ["Date Received: 25th April 1908"] },
+                 "body": [
+              { 
+                "type": "Text", 
+                "value": "Date Received",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "25th April 1908",
+                "purpose": "describing"
+              }
+            ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/520/235-link_2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": [
+                 {
+                   "type": "SpecificResource",
+                   "source": "https://www.olympics.com/ioc/news/london-1908-the-british-capital-goes-olympic-for-the-first-time"
+                 },
+                 {
+                  "type": "TextualBody",
+                  "value": "<p><a href='https://www.olympics.com/ioc/news/london-1908-the-british-capital-goes-olympic-for-the-first-time' target='_blank'>The Story of the Olympic Games in London 1908</a></p>",
+                  "format": "text/html",
+                  "language": "en"
+                  }
+                ],
+              "target": "https://example.org/iiif/canvas/COPY1/520/235#xywh=844,779,366,294"
+            }
+
+          ]
+        }
+      ]
+    }
+  ]
+}

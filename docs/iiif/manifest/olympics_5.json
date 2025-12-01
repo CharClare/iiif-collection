@@ -1,0 +1,206 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/manifest/COPY1/433/525.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "COPY1/433/525"
+    ]
+  },
+ "homepage": [
+  {
+    "id": "https://webarchive.nationalarchives.gov.uk/ukgwa/20120609094756/https://www.nationalarchives.gov.uk/olympics/recordpreviews/1896/1896-record-02.htm",
+    "type": "Text",
+    "label": { "en": ["Page on TNA Web Archive"] },
+    "format": "text/html"
+  }
+],
+
+  "items": [
+    {
+      "id": "https://example.org/iiif/canvas/COPY1/433/525",
+      "type": "Canvas",
+      "height": 2479,
+      "width": 3508,
+      "items": [
+        {
+          "id": "https://example.org/iiif/annotationpage/COPY1/433/525",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/annotation/COPY1/433/525/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+
+                    "id": "https://files.transkribus.eu/iiif/2/DKNJTNZUVVQIKOBZUODOTMQA/full/full/0/default.jpg",
+                    "type": "Image",
+                    "height": 2479,
+                    "width": 3508,
+                    "format": "image/jpeg"
+                  },
+                 "target": "https://example.org/iiif/canvas/COPY1/433/525"
+                  }
+                ]
+              }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/canvas/COPY1/433/525/regions",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/anno/COPY1/433/525-r",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": [""] },
+              "target": "https://example.org/iiif/canvas/COPY1/433/525#xywh=76,264,3344,593",
+              "body": [
+                 { "type": "Text",
+                  "value": "Name and Address",
+                  "purpose": "tagging" },
+
+                {"type": "Text",
+                 "value": "",
+                 "purpose": "describing"
+                }
+              ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/433/525-r_1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": ["Date Received: "] },
+              "target": "https://example.org/iiif/canvas/COPY1/433/525#xywh=2960,213,451,293",
+              "body": [
+              { 
+                "type": "Text", 
+                "value": "Date Received",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "",
+                "purpose": "describing"
+              }
+            ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/433/525-r_2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": ["Description of Work: "] },
+              "target": "https://example.org/iiif/canvas/COPY1/433/525#xywh=84,867,1227,585",
+              "body": [
+              { 
+                "type": "Text", 
+                "value": "Description of Work",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value":"",
+                "purpose": "describing"
+              }
+            ] 
+            },
+                        {
+              "id": "https://example.org/iiif/anno/COPY1/433/525-r_3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: "] },
+              "target": "https://example.org/iiif/canvas/COPY1/433/525#xywh=2153,859,613,599",
+              "body": [
+              { 
+                "type": "Text", 
+                "value": "Name and Place of Abode of Proprietor of Copyright",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value":"",
+                "purpose": "describing"
+              }
+            ] 
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/433/525-r_4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://example.org/iiif/canvas/COPY1/433/525#xywh=96,1387,3327,271",
+              "label": { "en": ["Date: "] },
+                 "body": [
+              { 
+                "type": "Text", 
+                "value": "Date",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "1908",
+                "purpose": "describing"
+              }
+            ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/433/525-r_5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://example.org/iiif/canvas/COPY1/433/525#xywh=2738,853,690,608",
+              "label": { "en": ["Name and Place of Abode of Author of Work"] },
+                 "body": [
+              { 
+                "type": "Text", 
+                "value": "Name and Place of Abode of Author of Work",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "",
+                "purpose": "describing"
+              }
+            ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/433/525-r_6",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "target": "https://example.org/iiif/canvas/COPY1/433/525#xywh=1367,138,873,851",
+              "label": { "en": ["Attached Photograph"] },
+                 "body": [
+              { 
+                "type": "Text", 
+                "value": "Photograph",
+                "purpose": "tagging"
+              },
+              { 
+                "type": "Text", 
+                "value": "Photograph",
+                "purpose": "describing"
+              }
+            ]
+            },
+            {
+              "id": "https://example.org/iiif/anno/COPY1/433/525-link_1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": [
+                 {
+                   "type": "SpecificResource",
+                   "source": "https://www.benaki.org/index.php?option=com_collectionitems&amp;view=collectionitem&amp;id=128816&amp;Itemid=&amp;lang=en"
+                 },
+                 {
+                  "type": "TextualBody",
+                  "value": "<p><a href='https://www.benaki.org/index.php?option=com_collectionitems&amp;view=collectionitem&amp;id=128816&amp;Itemid=&amp;lang=en' target='_blank'>Photograph in Benaki Museum, Athens</a></p>",
+                  "format": "text/html",
+                  "language": "en"
+                  }
+                ],
+              "target": "https://example.org/iiif/canvas/COPY1/433/525#xywh=1367,138,873,851"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
