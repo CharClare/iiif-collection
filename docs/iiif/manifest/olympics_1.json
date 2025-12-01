@@ -129,7 +129,7 @@
               "id": "https://example.org/iiif/anno/COPY1/520/235-r_3",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": ["Names of Parties to Agreement: Beuit Brothers and Harold Baker"] },
+              "label": { "en": ["Names of Parties to Agreement: Beudit Brothers and Harold Baker"] },
               "target": "https://example.org/iiif/canvas/COPY1/520/235#xywh=1620,870,563,599",
               "body": [
               { 
@@ -139,7 +139,7 @@
               },
               { 
                 "type": "Text", 
-                "value":"Beuit Brothers and Harold Baker",
+                "value":"Beudit Brothers and Harold Baker",
                 "purpose": "describing"
               }
             ] 
@@ -148,7 +148,7 @@
               "id": "https://example.org/iiif/anno/COPY1/520/235-r_4",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: Beuit Brothers, 121/122 Fore Street, London"] },
+              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: Beudit Brothers, 121/122 Fore Street, London"] },
               "target": "https://example.org/iiif/canvas/COPY1/520/235#xywh=2147,862,575,610",
               "body": [
               { 
@@ -158,7 +158,7 @@
               },
               { 
                 "type": "Text", 
-                "value": "Beuit Brothers, 121/122 Fore Street, London",
+                "value": "Beudit Brothers, 121/122 Fore Street, London",
                 "purpose": "describing"
               }
             ]
@@ -264,4 +264,5 @@
     }
   ]
 }
+
 
