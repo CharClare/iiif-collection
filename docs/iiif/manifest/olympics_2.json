@@ -74,7 +74,7 @@
               "id": "https://example.org/iiif/anno/COPY1/527/202-r",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": [""] },
+              "label": { "en": ["A W Gamage Limited of Holborn, London"] },
               "target": "https://example.org/iiif/canvas/COPY1/527/202#xywh=92,154,2380,670",
               "body": [
                  { "type": "Text",
@@ -82,7 +82,7 @@
                   "purpose": "tagging" },
 
                 {"type": "Text",
-                 "value": "",
+                 "value": "A W Gamage Limited of Holborn, London",
                  "purpose": "describing"
                 }
               ]
@@ -129,7 +129,7 @@
               "id": "https://example.org/iiif/anno/COPY1/527/202-r_3",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": ["Names of Parties to Agreement:"] },
+              "label": { "en": ["Names of Parties to Agreement: A W Gamage Ltd and James Barnett, Walter James Edwards, Robert Newington, Pargiter Humphrey"] },
               "target": "https://example.org/iiif/canvas/COPY1/527/202#xywh=1645,870,579,546",
               "body": [
               { 
@@ -139,7 +139,7 @@
               },
               { 
                 "type": "Text", 
-                "value":"",
+                "value":"A W Gamage Ltd and James Barnett, Walter James Edwards, Robert Newington, Pargiter Humphrey",
                 "purpose": "describing"
               }
             ] 
@@ -148,7 +148,7 @@
               "id": "https://example.org/iiif/anno/COPY1/527/202-r_4",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: "] },
+              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: A W Gamage Ltd, Holborn, London"] },
               "target": "https://example.org/iiif/canvas/COPY1/527/202#xywh=2197,879,560,533",
               "body": [
               { 
@@ -158,7 +158,7 @@
               },
               { 
                 "type": "Text", 
-                "value": "",
+                "value": "A W Gamage Ltd, Holborn, London",
                 "purpose": "describing"
               }
             ]
@@ -168,7 +168,7 @@
               "type": "Annotation",
               "motivation": "commenting",
               "target": "https://example.org/iiif/canvas/COPY1/527/202#xywh=2711,879,703,528",
-              "label": { "en": ["Name and Place of Abode of Author of Work: Harold Baker, 71 Cannon Street, Birmingham"] },
+              "label": { "en": ["Name and Place of Abode of Author of Work: Robert Newington and Pargiter Humphrey, 222-225 Strand, London"] },
                  "body": [
               { 
                 "type": "Text", 
@@ -177,7 +177,7 @@
               },
               { 
                 "type": "Text", 
-                "value": "Harold Baker, 71 Cannon Street, Birmingham",
+                "value": "Robert Newington and Pargiter Humphrey, 222-225 Strand, London",
                 "purpose": "describing"
               }
             ]
@@ -245,3 +245,4 @@
     }
   ]
 }
+
