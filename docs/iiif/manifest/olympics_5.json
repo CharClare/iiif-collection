@@ -53,7 +53,7 @@
               "id": "https://example.org/iiif/anno/COPY1/433/525-r",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": [""] },
+              "label": { "en": ["Underwood and Underwood of 14 Lafayette Place, New York"] },
               "target": "https://example.org/iiif/canvas/COPY1/433/525#xywh=76,264,3344,593",
               "body": [
                  { "type": "Text",
@@ -61,7 +61,7 @@
                   "purpose": "tagging" },
 
                 {"type": "Text",
-                 "value": "",
+                 "value": "Underwood and Underwood of 14 Lafayette Place, New York",
                  "purpose": "describing"
                 }
               ]
@@ -70,7 +70,7 @@
               "id": "https://example.org/iiif/anno/COPY1/433/525-r_1",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": ["Date Received: "] },
+              "label": { "en": ["Date Received: 7th December 1897"] },
               "target": "https://example.org/iiif/canvas/COPY1/433/525#xywh=2960,213,451,293",
               "body": [
               { 
@@ -80,7 +80,7 @@
               },
               { 
                 "type": "Text", 
-                "value": "",
+                "value": "7th December 1897",
                 "purpose": "describing"
               }
             ]
@@ -89,7 +89,7 @@
               "id": "https://example.org/iiif/anno/COPY1/433/525-r_2",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": ["Description of Work: "] },
+              "label": { "en": ["Description of Work: Photograph representing: Famous Ancient Stadion, Athens, where the Olympian Games were held in 1896"] },
               "target": "https://example.org/iiif/canvas/COPY1/433/525#xywh=84,867,1227,585",
               "body": [
               { 
@@ -99,7 +99,7 @@
               },
               { 
                 "type": "Text", 
-                "value":"",
+                "value":"Photograph representing: Famous Ancient Stadion, Athens, where the Olympian Games were held in 1896",
                 "purpose": "describing"
               }
             ] 
@@ -108,7 +108,7 @@
               "id": "https://example.org/iiif/anno/COPY1/433/525-r_3",
               "type": "Annotation",
               "motivation": "commenting",
-              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: "] },
+              "label": { "en": ["Name and Place of Abode of Proprietor of Copyright: Underwood and Underwood, 26 Red Lion Square, London and 14 Lafayette Square, New York, USA"] },
               "target": "https://example.org/iiif/canvas/COPY1/433/525#xywh=2153,859,613,599",
               "body": [
               { 
@@ -118,7 +118,7 @@
               },
               { 
                 "type": "Text", 
-                "value":"",
+                "value":"Underwood and Underwood, 26 Red Lion Square, London and 14 Lafayette Square, New York, USA",
                 "purpose": "describing"
               }
             ] 
@@ -128,7 +128,7 @@
               "type": "Annotation",
               "motivation": "commenting",
               "target": "https://example.org/iiif/canvas/COPY1/433/525#xywh=96,1387,3327,271",
-              "label": { "en": ["Date: "] },
+              "label": { "en": ["Date: 7th December 1897"] },
                  "body": [
               { 
                 "type": "Text", 
@@ -137,7 +137,7 @@
               },
               { 
                 "type": "Text", 
-                "value": "1908",
+                "value": "7th December 1897",
                 "purpose": "describing"
               }
             ]
@@ -147,7 +147,7 @@
               "type": "Annotation",
               "motivation": "commenting",
               "target": "https://example.org/iiif/canvas/COPY1/433/525#xywh=2738,853,690,608",
-              "label": { "en": ["Name and Place of Abode of Author of Work"] },
+              "label": { "en": ["Name and Place of Abode of Author of Work: Bert Underwood, 26 Red Lion Square, London"] },
                  "body": [
               { 
                 "type": "Text", 
@@ -156,7 +156,7 @@
               },
               { 
                 "type": "Text", 
-                "value": "",
+                "value": "Bert Underwood, 26 Red Lion Square, London",
                 "purpose": "describing"
               }
             ]
@@ -203,4 +203,5 @@
       ]
     }
   ]
+
 }
