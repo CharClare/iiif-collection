@@ -9,11 +9,12 @@
       "label": { "en": ["Copy1/60"] }
     },
     {
-    "id": "https://raw.githubusercontent.com/CharClare/iiif-collection/refs/heads/main/docs/iiif/collection/olympics_collection.json"
-    "type": "Collection"
+    "id": "https://raw.githubusercontent.com/CharClare/iiif-collection/refs/heads/main/docs/iiif/collection/olympics_collection.json",
+    "type": "Collection",
     "label": { "en": ["Olympics"] }
     } 
   ]
 }
+
 
 
