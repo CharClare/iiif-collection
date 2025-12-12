@@ -5,6 +5,9 @@
   "label": {
     "en": ["Copy1/60/174"]
   },
+   "behavior": [
+    "individuals"
+  ],
   "items": [
     {
       "id": "https://example.org/iiif/canvas/Copy1/60/174",
@@ -219,4 +222,5 @@
     }
   ] 
 } 
+
 
