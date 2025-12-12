@@ -7,6 +7,9 @@
       "Copy1/60/97"
     ]
   },
+   "behavior": [
+    "individuals"
+  ],
   "items": [
     {
       "id": "https://example.org/iiif/canvas/Copy1/60/97",
@@ -184,4 +187,5 @@
     "id": "http://collections.vam.ac.uk/item/O227789",
     "type": "text"
   }
+
 }
