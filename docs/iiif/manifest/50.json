@@ -5,11 +5,8 @@
   "label": {
     "en": ["Copy1/60/50"]
   },
-  "service": [
-    {
-      "id": "https://example.org/services/identifier/search",
-      "type": "SearchService2"
-    }
+  "behavior": [
+    "individuals"
   ],
   "items": [
     {
@@ -213,5 +210,6 @@
     }
   ] 
 } 
+
 
 
